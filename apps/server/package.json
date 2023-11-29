@@ -1,0 +1,17 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "node --watch -r @swc-node/register index.ts"
+    },
+    "dependencies": {
+        "ws": "^8.14.2"
+    },
+    "devDependencies": {
+        "@swc-node/register": "^1.6.8",
+        "@types/node": "^20.10.0",
+        "@types/ws": "^8.5.10",
+        "chokidar": "^3.5.3"
+    }
+}
