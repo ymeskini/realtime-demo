@@ -2,8 +2,9 @@
     "name": "server",
     "version": "1.0.0",
     "private": true,
+    "type": "module",
     "scripts": {
-        "dev": "node --watch -r @swc-node/register index.ts"
+        "dev": "node --watch --loader @swc-node/register/esm index.ts"
     },
     "dependencies": {
         "ws": "^8.14.2"
